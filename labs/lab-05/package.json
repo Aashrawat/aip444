@@ -1,0 +1,25 @@
+{
+  "name": "lab-05",
+  "version": "1.0.0",
+  "description": "PR advice CLI with GitHub file-fetching tool calling",
+  "main": "pr-advice.ts",
+  "scripts": {
+    "pr-advice": "tsx pr-advice.ts",
+    "test-tool": "tsx test-tool.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^6.42.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
