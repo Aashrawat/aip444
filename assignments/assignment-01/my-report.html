@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Review Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .report-header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .report-header h1 {
+            margin-bottom: 5px;
+        }
+        .summary {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        .summary-item {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            min-width: 120px;
+        }
+        .critical { background-color: #e74c3c; color: white; }
+        .warn { background-color: #f39c12; color: white; }
+        .info { background-color: #3498db; color: white; }
+        .finding-list {
+            margin-top: 20px;
+        }
+        .finding-card {
+            background-color: #fdfdfd;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            padding: 15px 20px;
+            transition: box-shadow 0.3s ease;
+        }
+        .finding-card:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        .finding-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        .severity-badge {
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .finding-meta {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 5px;
+        }
+        .finding-meta code {
+            background-color: #ecf0f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+        }
+        .finding-description {
+            margin-top: 10px;
+            padding-left: 5px;
+        }
+        code {
+            font-family: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+            background-color: #ecf0f1;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        .no-issues {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="report-header">
+            <h1>Code Review Report</h1>
+            <p><strong>File:</strong> <code>assignments/assignment-01/bad_code.ts</code></p>
+        </div>
+
+        <div class="summary">
+            <div class="summary-item critical">
+                <span>Critical: 2</span>
+            </div>
+            <div class="summary-item warn">
+                <span>Warnings: 2</span>
+            </div>
+            <div class="summary-item info">
+                <span>Info: 1</span>
+            </div>
+        </div>
+
+        <div class="finding-list">
+            
+            <div class="finding-card">
+                <div class="finding-header">
+                    <div>
+                        <span class="severity-badge critical">Critical</span>
+                        <strong>Security Risk: Hard-coded API Key</strong>
+                    </div>
+                </div>
+                <div class="finding-meta">
+                    File: <code>assignments/assignment-01/bad_code.ts</code>, Line: <code>15</code>
+                </div>
+                <div class="finding-description">
+                    A hard-coded API key is present in the code. This poses a significant security risk. API keys should never be hard-coded. Implement a secure solution using environment variables or a dedicated secrets management system.
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <div class="finding-header">
+                    <div>
+                        <span class="severity-badge critical">Critical</span>
+                        <strong>Type Safety Violation in `getUserID`</strong>
+                    </div>
+                </div>
+                <div class="finding-meta">
+                    File: <code>assignments/assignment-01/bad_code.ts</code>, Line: <code>11</code>
+                </div>
+                <div class="finding-description">
+                    The <code>getUserID</code> function is declared to return a <code>number</code> but attempts to return a string via <code>toString()</code>. The subsequent <code>as unknown as number</code> cast is a dangerous type assertion that bypasses type checking. This can lead to runtime errors or unexpected behavior.
+                    <br><br>
+                    <strong>Recommendation:</strong> Either return <code>user.id</code> directly (if it's guaranteed to be a number) or change the function's return type to <code>string</code> and ensure proper handling.
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <div class="finding-header">
+                    <div>
+                        <span class="severity-badge warn">Warning</span>
+                        <strong>Hard-coded Sensitive Information</strong>
+                    </div>
+                </div>
+                <div class="finding-meta">
+                    File: <code>assignments/assignment-01/bad_code.ts</code>, Line: <code>14</code>
+                </div>
+                <div class="finding-description">
+                    The variable <code>apiKey</code> is hardcoded and contains sensitive information. It should not be stored directly in the code. Consider using environment variables or a secrets management system to handle sensitive credentials securely.
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <div class="finding-header">
+                    <div>
+                        <span class="severity-badge warn">Warning</span>
+                        <strong>Unimported Module Usage</strong>
+                    </div>
+                </div>
+                <div class="finding-meta">
+                    File: <code>assignments/assignment-01/bad_code.ts</code>, Line: <code>17</code>
+                </div>
+                <div class="finding-description">
+                    The <code>fs</code> module is used (e.g., <code>fs.writeFileSync</code>) without being imported. Ensure that the <code>fs</code> module is properly imported at the beginning of the file to avoid runtime errors.
+                </div>
+            </div>
+
+            <div class="finding-card">
+                <div class="finding-header">
+                    <div>
+                        <span class="severity-badge info">Info</span>
+                        <strong>Unused Import</strong>
+                    </div>
+                </div>
+                <div class="finding-meta">
+                    File: <code>assignments/assignment-01/bad_code.ts</code>, Line: <code>1</code>
+                </div>
+                <div class="finding-description">
+                    The import <code>join</code> from the 'path' module is not used in the file. Remove this unused import to reduce code clutter and improve maintainability.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

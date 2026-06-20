@@ -1,0 +1,21 @@
+{
+  "name": "assignment-01-code-review",
+  "version": "1.0.0",
+  "description": "AI code review CLI with parallel reviewers and Lead Dev synthesis",
+  "type": "module",
+  "scripts": {
+    "review": "tsx review.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vscode/ripgrep": "^1.15.11",
+    "dotenv": "^17.4.2",
+    "openai": "^6.42.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
