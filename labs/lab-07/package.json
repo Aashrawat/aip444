@@ -1,0 +1,26 @@
+{
+  "name": "lab-07",
+  "version": "1.0.0",
+  "description": "RAG pipeline with ChromaDB for Node.js API documentation",
+  "main": "node-ask.ts",
+  "scripts": {
+    "index": "tsx indexer.ts",
+    "query": "tsx query.ts",
+    "ask": "tsx node-ask.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chromadb": "^3.0.6",
+    "dotenv": "^17.4.2",
+    "openai": "^6.42.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}

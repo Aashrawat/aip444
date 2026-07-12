@@ -1,3 +1,5 @@
 node_modules
 .env
 .cache
+chroma_db/
+labs/lab-07/chroma_db/
