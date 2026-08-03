@@ -209,3 +209,10 @@ export const credibilityTools = [
   assessCredibilityTool,
   saveReportTool,
 ];
+
+/** Ablation variant for reflection: same agent without the think tool. */
+export const credibilityToolsWithoutAssess = [
+  readUrlTool,
+  webSearchTool,
+  saveReportTool,
+];

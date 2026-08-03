@@ -6,7 +6,10 @@ import dotenv from 'dotenv';
 import { Agent, Runner } from '@openai/agents';
 
 import { OpenRouterModelProvider, resolveModelName } from './provider.js';
-import { credibilityTools } from './tools.js';
+import {
+  credibilityTools,
+  credibilityToolsWithoutAssess,
+} from './tools.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -118,20 +121,41 @@ async function main(): Promise<void> {
     'utf-8'
   );
 
+  const skipAssess = process.env.SKIP_ASSESS === '1';
+  let instructionsFinal = instructions;
+  if (skipAssess) {
+    console.error('SKIP_ASSESS=1 — running without assess_credibility tool');
+    instructionsFinal = instructions
+      .replace(
+        /3\. \*\*`assess_credibility`\*\*[^\n]*\n/,
+        '3. *(assess_credibility disabled for this run)*\n'
+      )
+      .replace(
+        /## 6\. Evaluate \(required\)[\s\S]*?(?=## 7\. Report)/,
+        '## 6. Evaluate\n\nassess_credibility is unavailable. Proceed directly to the report after investigation.\n\n'
+      )
+      .replace(
+        'Call this only after assess_credibility.',
+        'Write the report after your investigation.'
+      );
+  }
+
   const provider = new OpenRouterModelProvider(apiKey!, modelName);
   const runner = new Runner({ modelProvider: provider });
 
   const agent = new Agent({
     name: 'Source Credibility Analyzer',
-    instructions,
-    tools: credibilityTools,
+    instructions: instructionsFinal,
+    tools: skipAssess ? credibilityToolsWithoutAssess : credibilityTools,
     model: modelName,
   });
 
   const userPrompt = [
     `Evaluate the credibility of this source: ${url}`,
     extra ? `\nAdditional instructions: ${extra}` : '',
-    '\nFollow your investigation workflow. Use assess_credibility before save_report.',
+    skipAssess
+      ? '\nFollow your investigation workflow, then save_report. assess_credibility is disabled.'
+      : '\nFollow your investigation workflow. Use assess_credibility before save_report.',
   ].join('');
 
   console.error(`URL: ${url}`);

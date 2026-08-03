@@ -1,40 +1,54 @@
 # Lab 09 Reflection — Source Credibility Analyzer
 
-## What I built
+## Typical steps / investigative process
 
-A TypeScript agent using the **OpenAI Agents SDK** with a custom **OpenRouter** `ModelProvider`, four tools (`read_url`, `web_search`, `assess_credibility`, `save_report`), and a system prompt that drives multi-step investigation before writing a Markdown report under `reports/`.
+Successful runs usually took **~8–13 tool calls** (about **10–12 printed steps** including the final message), well under `maxTurns=20`.
 
-## How the agent loop behaved
-
-On successful runs the typical path was:
+Typical path:
 
 1. `read_url` on the target  
-2. Several `web_search` calls (author, outlet, claims)  
-3. Extra `read_url` for About pages or corroborating articles  
-4. `assess_credibility` (structured “think” tool)  
-5. `save_report`
+2. `web_search` for author credentials  
+3. `web_search` / `read_url` for publication reputation or About pages  
+4. `web_search` for claim corroboration / fact-checks  
+5. `assess_credibility`  
+6. `save_report`
 
-The **trace** (`result.newItems`) was the best debugging signal. Early failures were schema-related (`z.string().url()` → JSON Schema `format: uri`, rejected by the provider). After switching to plain strings, tool calling worked.
+This was generally a **logical investigative process**. Occasional **detours** included duplicate/overlapping searches or reading low-value index pages. Those rarely changed the verdict but burned turns.
 
-## Test results (research topic: AI coding / CLI vs IDE)
+## assess_credibility ablation (think-tool pattern)
 
-| Category | Source | Verdict |
-|----------|--------|---------|
-| High — gov | NIST adversarial AI news (Jan 2024) | **high** |
-| High — news | BBC: Can coders trust ChatGPT? | **high** |
-| Medium — vendor | GitHub Blog Copilot productivity research | **medium** |
-| Low — personal | Medium: ditching GitHub Copilot | **low** |
-| Tricky | Natural News ChatGPT article | **very_low** |
+I re-ran the same BBC URL with `SKIP_ASSESS=1` (no think tool).
 
-The tricky case mattered most: the page can look like a news article, but investigation of the outlet reputation correctly pulled the rating down to `very_low`.
+| | With `assess_credibility` | Without |
+|--|---------------------------|---------|
+| Verdict | high | high |
+| Structure | Full Zod rubric enums/booleans/scores | Softer prose ratings |
+| Completeness | Harder to skip dimensions | Easier to blur unverified vs corroborated |
 
-## Missing information / failures
+Both reached a sensible high rating for BBC, but **with** the think tool the structured evaluation was more complete and consistent. That supports Anthropic’s idea: a no-side-effect tool whose **schema** forces careful intermediate reasoning before the final report.
 
-- A mistyped NIST July URL returned **404**; the agent searched, found the live January page, and documented the broken link instead of inventing content.  
-- Some major outlets (e.g. Reuters) block automated fetches; BBC/CBC-style URLs worked better via Jina.  
-- `openrouter/free` is unsuitable for multi-tool runs; default model is `openai/gpt-5.4-mini`.  
-- Polished Medium essays on “publications” (e.g. CodeX) sometimes scored `medium` until the prompt/schema made self-published opinion defaults clearer.
+## Missing author / publication
 
-## What the “think” tool changed
+- NIST / Anthropic docs / Natural News 404: agent recorded **Unknown** or institutional authorship, checked About pages, and did **not** invent bylines.  
+- Broken NIST July URL: found the live January page and documented the 404 instead of fabricating content.  
+- Prompt revisions were needed so Medium “publications” were not overrated as editor-reviewed news.  
+- Residual issue: arXiv preprint once labeled `peer_reviewed_journal` while `editorial_process=self_published` — classification inconsistency, not author hallucination.
 
-Without `assess_credibility`, the model tended to jump to a soft summary. Forcing the full Zod rubric made author/publication/corroboration fields explicit and improved report consistency.
+## Hardest source
+
+Natural News (broken article URL + low-reputation outlet) and vendor docs (authoritative for product claims, biased for evaluation). Would improve with stricter cross-field schema rules and a known-outlet reputation helper.
+
+## Agent vs human evaluation
+
+**Good at:** triage speed, checklist coverage, finding About pages, documenting broken URLs, producing reusable Markdown.  
+**Bad at:** deep methodology critique, blocked major-news fetches, occasional overconfidence on vendor sources.  
+**Trust for research:** first-pass triage only — I still verify DOIs and decide citability myself.
+
+## Research-project sources (CLI vs IDE)
+
+| Source | URL | Agent verdict | My take |
+|--------|-----|---------------|---------|
+| Peng et al. (2023) Copilot productivity | https://arxiv.org/abs/2302.06590 | high | Credible primary preprint for the 55.8% claim; note arXiv + GitHub/Microsoft author ties |
+| Anthropic Claude Code docs | https://code.claude.com/docs/en/overview | high | Credible official docs for product description; treat comparative claims as medium / vendor-biased |
+
+Current research mix (Peng, Perry, Klemmer, Ziegler, official Anthropic/Cursor/Aider docs) is **strong**. Core claims rest on academic sources and clearly labeled vendor docs—not low-credibility blogs. Agent tests (BBC high, Natural News very_low) match how I already filter sources.
