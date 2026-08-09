@@ -24,7 +24,7 @@ May 2021 – Dec 2022
 - Participated in on-call shadowing and incident write-ups
 
 EDUCATION
-B.Sc. Computer Science — Example University
+B.Sc. Computer Science — Seneca
 2018 – 2022
 Coursework: Data Structures, Databases, Operating Systems, Web Development
 
