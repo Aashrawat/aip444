@@ -1,0 +1,71 @@
+{
+  "job_title": "DevOps / Site Reliability Engineer (Software-focused)",
+  "company_name": "Datadog",
+  "location": "North America",
+  "remote_status": "remote",
+  "posting_age_days": 39,
+  "posting_date_note": null,
+  "required_skills": [
+    "3+ years in SRE, DevOps, or backend engineering",
+    "Strong coding skills in Python or Go",
+    "Kubernetes and container orchestration experience",
+    "Terraform or equivalent IaC",
+    "Experience with monitoring/alerting"
+  ],
+  "preferred_skills": [
+    "AWS and GCP",
+    "Service mesh / networking fundamentals",
+    "Incident management leadership"
+  ],
+  "experience_level": "3+ years",
+  "education_requirements": null,
+  "salary_range": "$125,000 – $165,000 USD",
+  "key_responsibilities": [
+    "Automate operational toil",
+    "Improve reliability of multi-tenant SaaS systems",
+    "Partner with product engineering on SLOs",
+    "Lead post-incident reviews"
+  ],
+  "slug": "devops-site-reliability-engineer-software-focused-datadog",
+  "source_file": "07-sre-datadog.txt",
+  "extracted_at": "2026-08-09T19:48:12.736Z",
+  "company_research": {
+    "company_size": "8,100 employees",
+    "industry": "Business/Productivity Software, Technology and Communications, Software - Application",
+    "recent_news": [
+      "Datadog has been actively expanding its AI security capabilities, LLM observability, and AI research with new foundation models and benchmarks. (June 2025)",
+      "Datadog has expanded its log management offering with new long-term retention, search, and data residency capabilities. (June 2025)",
+      "Datadog launched an internal developer portal. (June 2025)",
+      "Datadog expanded UK data hosting capabilities on AWS Europe (London) Region. (July 2026)",
+      "Datadog acquired Adaptive ML to accelerate its investment in AI research and development. (June 2026)",
+      "Datadog launched over 100 capabilities to help customers drive autonomy and manage growing AI and security complexity. (June 2026)",
+      "Datadog for Government achieved FedRAMP® High Certification. (May 2026)",
+      "Datadog announced GPU Monitoring to help businesses optimize spend and performance as they aim to scale AI projects. (April 2026)",
+      "Datadog was ranked on Forbes' Global 2000 List, recognizing global impact and financial strength. (July 2025)",
+      "Datadog's workforce grew 4.6% year over year in 2026, with active job postings increasing by 35.7% to 1,194. (March 2026)"
+    ],
+    "culture_signals": [
+      "Overall employee rating of 4.0 out of 5 stars on Blind, with 79% positive reviews on Comparably.",
+      "Highest-rated aspect is Company Culture (4.1/5 on Blind), described as positive and collaborative.",
+      "Culture is built around continuous learning, collaboration, open feedback, humility, curiosity, ownership, accountability, and technical ambition.",
+      "Employees are encouraged to recognize achievements, learn from constructive critique, and approach challenges with accountability.",
+      "Lowest-rated category is Management (3.5/5 on Blind), indicating an area for improvement.",
+      "Career growth is rated 3.6/5 on Blind, suggesting average opportunities for advancement.",
+      "Some long-term employees note that the company culture is changing."
+    ],
+    "sources": [
+      "https://pitchbook.com/profiles/company/53904-79",
+      "https://www.globaldata.com/company-profile/datadog-inc",
+      "https://finance.yahoo.com/quote/DDOG/profile",
+      "https://www.linkedin.com/company/datadog",
+      "https://www.datadoghq.com/about/latest-news/press-releases",
+      "https://investors.datadoghq.com/news-releases",
+      "https://www.reveliolabs.com/companies/datadog/employees",
+      "https://www.teamblind.com/company/Datadog/reviews",
+      "https://www.indeed.com/cmp/Datadog/reviews",
+      "https://builtin.com/company/datadog/faq/culture-values",
+      "https://www.comparably.com/companies/datadog/reviews"
+    ],
+    "notes": "Datadog is a public company in the software and technology sector with 8,100 employees. The company has shown significant expansion, particularly in AI-related capabilities and global data hosting, with no recent news of layoffs. Employee feedback indicates a strong, collaborative company culture focused on continuous learning, though management is an area identified for improvement. Career growth opportunities are considered average."
+  }
+}

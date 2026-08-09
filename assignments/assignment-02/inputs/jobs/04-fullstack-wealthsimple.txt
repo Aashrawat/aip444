@@ -1,0 +1,25 @@
+Full Stack Developer
+Company: Wealthsimple
+Location: Toronto, Canada (Hybrid 2 days/week)
+Posted: 2026-07-20
+Salary range: $105,000 – $135,000 CAD
+
+Join Wealthsimple's client experience team building investing products for Canadians.
+
+Requirements:
+- 2–4 years full-stack development
+- TypeScript, React, Node.js
+- Experience with PostgreSQL
+- Familiarity with cloud services (AWS preferred)
+- Strong communication skills
+
+Assets:
+- Fintech or regulated industry experience
+- Docker / Kubernetes
+- Mobile (React Native)
+
+Responsibilities include building customer-facing web apps, collaborating with compliance, writing automated tests, and participating in agile ceremonies.
+
+Education: Bachelor's preferred but not required with strong portfolio.
+
+Contact via wealthsimple.com/careers

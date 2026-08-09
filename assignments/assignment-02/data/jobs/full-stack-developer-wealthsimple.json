@@ -1,0 +1,42 @@
+{
+  "job_title": "Full Stack Developer",
+  "company_name": "Wealthsimple",
+  "location": "Toronto, Canada",
+  "remote_status": "hybrid",
+  "posting_age_days": 20,
+  "posting_date_note": null,
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "cloud services"
+  ],
+  "preferred_skills": [
+    "Fintech",
+    "regulated industry experience",
+    "Docker",
+    "Kubernetes",
+    "React Native"
+  ],
+  "experience_level": "2-4 years",
+  "education_requirements": "Bachelor's preferred but not required with strong portfolio.",
+  "salary_range": "$105,000 – $135,000 CAD",
+  "key_responsibilities": [
+    "building customer-facing web apps",
+    "collaborating with compliance",
+    "writing automated tests",
+    "participating in agile ceremonies"
+  ],
+  "slug": "full-stack-developer-wealthsimple",
+  "source_file": "04-fullstack-wealthsimple.txt",
+  "extracted_at": "2026-08-09T19:47:40.483Z",
+  "company_research": {
+    "company_size": null,
+    "industry": null,
+    "recent_news": [],
+    "culture_signals": [],
+    "sources": [],
+    "notes": "I am unable to provide a summary of the company's size, industry, recent news, or culture signals. My search tools did not return sufficient information for this company."
+  }
+}

@@ -1,0 +1,25 @@
+Junior Software Developer
+Company: Shopify
+Location: Ottawa, ON (Hybrid)
+Posted: about 1 week ago
+Salary: $75,000 – $95,000 CAD
+
+Entry-level Full Stack role on the Admin Experience team.
+
+Requirements
+- 0–2 years experience or strong internship / co-op background
+- JavaScript/TypeScript fundamentals
+- Willingness to learn Ruby on Rails and React
+- Degree in Computer Science, Software Engineering, or related field OR bootcamp + portfolio
+
+Nice to have
+- Personal projects on GitHub
+- Basic SQL
+- Understanding of HTTP and REST
+
+Responsibilities
+- Implement UI and API tickets with mentorship
+- Write unit tests
+- Learn production practices and participate in code review
+
+Careers page: shopify.com/careers

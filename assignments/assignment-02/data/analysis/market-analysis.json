@@ -1,0 +1,147 @@
+{
+  "posting_count": 12,
+  "most_common_required_skills": [
+    {
+      "skill": "TypeScript",
+      "count": 6
+    },
+    {
+      "skill": "React",
+      "count": 5
+    },
+    {
+      "skill": "Node.js",
+      "count": 4
+    },
+    {
+      "skill": "PostgreSQL",
+      "count": 4
+    },
+    {
+      "skill": "3+ years professional experience",
+      "count": 3
+    },
+    {
+      "skill": "backend engineering",
+      "count": 2
+    },
+    {
+      "skill": "Go",
+      "count": 2
+    },
+    {
+      "skill": "Kubernetes",
+      "count": 2
+    },
+    {
+      "skill": "Terraform",
+      "count": 2
+    },
+    {
+      "skill": "JavaScript",
+      "count": 2
+    },
+    {
+      "skill": "Ruby on Rails",
+      "count": 2
+    },
+    {
+      "skill": "Automated testing culture",
+      "count": 2
+    }
+  ],
+  "most_common_preferred_skills": [
+    {
+      "skill": "Kubernetes",
+      "count": 3
+    },
+    {
+      "skill": "GraphQL",
+      "count": 3
+    },
+    {
+      "skill": "Fintech",
+      "count": 2
+    },
+    {
+      "skill": "Kafka",
+      "count": 2
+    },
+    {
+      "skill": "AWS",
+      "count": 2
+    },
+    {
+      "skill": "GCP",
+      "count": 2
+    },
+    {
+      "skill": "Ruby on Rails",
+      "count": 2
+    }
+  ],
+  "typical_experience_levels": [
+    "Entry-level roles are available but less common, often requiring a degree or bootcamp + portfolio.",
+    "Mid-level roles typically require 2-4 years of experience.",
+    "Senior roles generally ask for 3-5+ years of experience, with some specialized roles requiring 10+ years (e.g., Distributed Systems Engineer)."
+  ],
+  "education_patterns": [
+    "A Bachelor's degree in Computer Science or a related field is often preferred or equivalent practical experience is accepted.",
+    "For entry-level roles, a bootcamp certificate with a strong portfolio can substitute for a degree.",
+    "Many senior roles do not explicitly state education requirements, implying experience is paramount."
+  ],
+  "salary_observations": [
+    "Salaries vary significantly by experience level, location (USD vs. CAD), and company/specialization.",
+    "Entry-level (CAD): $75,000 - $95,000.",
+    "Mid-level Full Stack/Backend (CAD): $105,000 - $150,000.",
+    "Mid-level Full Stack/Backend/DevOps (USD): $115,000 - $195,000.",
+    "Senior Frontend (USD): $160,000 - $210,000 + equity.",
+    "Senior Staff Distributed Systems Engineer (USD): $300,000 - $500,000+ (highly specialized, HFT firm).",
+    "One outlier posting for 'Remote Data Entry / Software Assistant' advertised an unrealistic '$8,500 per week' with 'no experience needed', which is likely a scam."
+  ],
+  "common_responsibilities": [
+    "Building and maintaining features/APIs",
+    "Writing and maintaining automated tests",
+    "Collaborating with cross-functional teams (design, product, compliance)",
+    "Improving performance and reliability of systems",
+    "Participating in code reviews and agile ceremonies",
+    "Mentoring junior engineers",
+    "Participating in on-call rotations"
+  ],
+  "remote_work_patterns": [
+    "Remote work is prevalent, with several companies offering fully remote positions (Stripe, Datadog, Figma, HubSpot, Linear, GitHub).",
+    "Hybrid models are also common, particularly in specific geographic locations (Wealthsimple, Shopify, Notion).",
+    "One highly specialized role (Jane Street) is strictly onsite."
+  ],
+  "industry_and_culture_notes": [
+    "Fintech companies (Stripe, Wealthsimple, Jane Street) emphasize high standards, reliability, and often have intense, fast-paced cultures.",
+    "Product-focused companies (Figma, Notion, Linear) value craft, collaboration with design, and user experience.",
+    "Larger tech companies (Stripe, Shopify, HubSpot) have experienced recent layoffs but are still actively hiring, often with a focus on specific growth areas (AI, infrastructure).",
+    "Companies like Datadog and Notion highlight continuous learning, open feedback, and collaborative environments.",
+    "Jane Street stands out with a highly specialized, tech-like culture focused on low-latency systems and quantitative finance, offering very high compensation.",
+    "There's a general trend towards transparency, employee autonomy, and strong values in company cultures."
+  ],
+  "notable_trends": [
+    "Strong demand for Full Stack and Backend Engineers, with a focus on modern web technologies (TypeScript, React, Node.js).",
+    "Cloud-native skills (Kubernetes, Terraform, AWS, GCP) are highly valued, especially for DevOps/SRE roles.",
+    "Fintech and real-time systems experience is a significant advantage in several postings.",
+    "AI and LLM observability are emerging areas of focus for companies like Datadog and Notion.",
+    "Despite recent layoffs in some larger companies, hiring continues, often with a strategic focus on specific engineering domains.",
+    "Emphasis on strong testing practices, observability, and API design across various roles.",
+    "Mentorship and collaboration are frequently mentioned responsibilities, indicating a focus on team growth and knowledge sharing."
+  ],
+  "companies_analyzed": [
+    "Stripe",
+    "Datadog",
+    "Wealthsimple",
+    "Figma",
+    "Shopify",
+    "GlobalTek Solutions LLC",
+    "Notion",
+    "Jane Street",
+    "HubSpot",
+    "Linear",
+    "GitHub"
+  ],
+  "generated_at": "2026-08-09T19:48:44.246Z"
+}

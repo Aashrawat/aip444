@@ -1,0 +1,71 @@
+{
+  "job_title": "Software Engineer — Full Stack",
+  "company_name": "Shopify",
+  "location": "Toronto, ON",
+  "remote_status": "hybrid",
+  "posting_age_days": 5,
+  "posting_date_note": null,
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "REST APIs",
+    "relational databases",
+    "PostgreSQL",
+    "MySQL",
+    "Git",
+    "CI/CD",
+    "code review"
+  ],
+  "preferred_skills": [
+    "Ruby on Rails",
+    "GraphQL",
+    "high-traffic e-commerce systems",
+    "AWS",
+    "GCP"
+  ],
+  "experience_level": "3+ years professional software development",
+  "education_requirements": "Bachelor's degree in CS or equivalent experience",
+  "salary_range": "$110,000 – $150,000 CAD",
+  "key_responsibilities": [
+    "Design, implement, and maintain full-stack features",
+    "Write tests and participate in on-call rotations",
+    "Collaborate with product managers on roadmap items",
+    "Improve developer experience and observability"
+  ],
+  "slug": "software-engineer-full-stack-shopify",
+  "source_file": "01-fullstack-shopify.txt",
+  "extracted_at": "2026-08-09T19:47:14.239Z",
+  "company_research": {
+    "company_size": "7,600 employees (as of July 2026)",
+    "industry": "E-commerce, IT Software & Services, Software - Application",
+    "recent_news": [
+      "May 2026: Shopify announced layoffs affecting 30 employees in revenue operations restructuring.",
+      "November 2025: Shopify made layoffs to remove organizational layers, affecting managerial roles in merchant success, operations, sales, and account executive teams. This impacted a 'fraction of a percent' of staff.",
+      "2022 & 2023: Shopify conducted significant workforce reductions across all divisions, with most cuts in recruiting, support, and sales, due to a misjudgment of the post-pandemic e-commerce boom."
+    ],
+    "culture_signals": [
+      "Overall Glassdoor rating for culture and values: 3.3/5.",
+      "44% of employees would recommend working at Shopify to a friend.",
+      "48% of employees believe Shopify has a positive business outlook.",
+      "Work-life balance rating on Glassdoor: 3.3/5.",
+      "Employees describe a talented and caring workforce, but also a chaotic and frequently changing environment that can lead to burnout and uncertainty about job security."
+    ],
+    "sources": [
+      "https://www.forbes.com/companies/shopify",
+      "https://www.zoominfo.com/c/shopify-inc/137527486",
+      "https://www.globaldata.com/company-profile/shopify-inc",
+      "https://en.wikipedia.org/wiki/Shopify",
+      "https://finance.yahoo.com/quote/SHOP/profile",
+      "https://www.interviewpal.com/layoffs/shopify",
+      "https://whittenlublin.com/blog/shopify-layoffs-another-round-of-job-cuts",
+      "https://www.linkedin.com/posts/madison-mclauchlan-9730581b5_shopify-says-recent-layoffs-removed-layers-activity-7399211769602387968-huis",
+      "https://www.youtube.com/watch?v=Sj_nJwAm5Z8",
+      "https://www.cnbc.com/2022/07/26/shopify-sinks-12percent-after-company-plans-to-lay-off-10percent-of-workers.html",
+      "https://www.glassdoor.com/Reviews/Shopify-company-culture-Reviews-EI_IE675933.0,7_KH8,23.htm",
+      "https://www.glassdoor.com/Reviews/Shopify-Canada-Reviews-EI_IE675933.0,7_IL.8,14_IN3.htm",
+      "https://www.glassdoor.com/Overview/Working-at-Shopify-EI_IE675933.11,18.htm",
+      "https://www.glassdoor.com/Reviews/Shopify-Reviews-E675933.htm"
+    ],
+    "notes": null
+  }
+}

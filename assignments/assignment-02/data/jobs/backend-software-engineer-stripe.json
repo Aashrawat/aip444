@@ -1,0 +1,64 @@
+{
+  "job_title": "Backend Software Engineer",
+  "company_name": "Stripe",
+  "location": "Canada / US",
+  "remote_status": "remote",
+  "posting_age_days": 42,
+  "posting_date_note": null,
+  "required_skills": [
+    "4+ years backend engineering",
+    "Proficiency in Go, Java, or Ruby",
+    "Strong distributed systems fundamentals (queues, idempotency, consistency)",
+    "Experience with PostgreSQL or similar",
+    "Solid understanding of HTTP APIs and security best practices"
+  ],
+  "preferred_skills": [
+    "Experience in fintech or payments",
+    "Kubernetes and Terraform",
+    "Kafka or similar event streaming"
+  ],
+  "experience_level": "4+ years backend engineering",
+  "education_requirements": null,
+  "salary_range": "$140,000 – $190,000 USD",
+  "key_responsibilities": [
+    "Build reliable payment APIs used by millions of businesses",
+    "Own services through design, implementation, and production operations",
+    "Partner with security and compliance stakeholders",
+    "Mentor junior engineers"
+  ],
+  "slug": "backend-software-engineer-stripe",
+  "source_file": "02-backend-stripe.txt",
+  "extracted_at": "2026-08-09T19:47:24.051Z",
+  "company_research": {
+    "company_size": "5,001-10,000 employees",
+    "industry": "Fintech, Technology, Information and Internet, Business Services & Supplies",
+    "recent_news": [
+      "Stripe cut 300 jobs (3.5% of workforce) in January 2025, primarily in product, engineering, and operations. This followed a larger layoff of 14% of its workforce in late 2022 and 40 positions in July 2023. Despite the layoffs, Stripe stated it was not slowing down hiring and aimed to reach 10,000 employees by the end of 2025.",
+      "Stripe has been in net hiring mode through all of 2026, with roughly 500 open roles weighted toward engineering, AI infrastructure, and international expansion in Dublin, Singapore, and Bengaluru."
+    ],
+    "culture_signals": [
+      "Stripe has an intense, yet collaborative and supportive culture with explicitly codified operating principles emphasizing building critical economic infrastructure with high standards. Key values include users-first, craft and beauty, urgency with focus, egoless collaboration, curiosity, and a high talent bar.",
+      "The company is known for its memo-driven decision-making culture, where significant decisions are documented in long-form writing, fostering clarity and creating a searchable institutional record.",
+      "Products are fundamentally owned by engineers, not product managers.",
+      "While the culture is described as intense, it doesn't necessarily mean long hours, but rather a focus on high performance and attention to detail, which can lead to burnout for some. Some employees have noted uneven recognition and a history of management changes."
+    ],
+    "sources": [
+      "https://www.forbes.com/companies/stripe",
+      "https://www.linkedin.com/company/stripe",
+      "https://bytebridge.medium.com/stripe-inc-a-comprehensive-report-d6c422b66ce1",
+      "https://www.globaldata.com/company-profile/stripe-inc",
+      "https://www.chargeflow.io/blog/stripe-statistics",
+      "https://www.kore1.com/stripe-layoffs-2026",
+      "https://www.paymentsdive.com/news/stripe-employees-workforce-cuts-additions/737935",
+      "https://www.cnbc.com/2025/01/21/stripe-cuts-300-jobs-in-product-engineering-and-operations-.html",
+      "https://www.businessinsider.com/stripe-layoffs-duck-email-error-2025-1",
+      "https://www.wsj.com/articles/stripe-to-cut-14-of-jobs-11667493322",
+      "https://builtin.com/company/stripe/faq/culture-values",
+      "https://www.comparably.com/companies/stripe",
+      "https://www.mokahr.io/myblog/talent-culture-strategy-at-stripe-hiring-retention-growth",
+      "https://medium.com/@coachchris289/my-first-6-months-at-stripe-621aca89759b",
+      "https://news.ycombinator.com/item?id=42023089"
+    ],
+    "notes": null
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.env
+# Personal PDFs/Word — keep sample .txt fixtures committable
+inputs/**/*.pdf
+inputs/**/*.docx
+inputs/**/*.doc
+*.pdf
+*.docx

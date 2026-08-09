@@ -1,0 +1,69 @@
+{
+  "job_title": "Junior Software Developer",
+  "company_name": "Shopify",
+  "location": "Ottawa, ON",
+  "remote_status": "hybrid",
+  "posting_age_days": 7,
+  "posting_date_note": null,
+  "required_skills": [
+    "JavaScript",
+    "TypeScript",
+    "Ruby on Rails",
+    "React"
+  ],
+  "preferred_skills": [
+    "SQL",
+    "HTTP",
+    "REST"
+  ],
+  "experience_level": "Entry-level",
+  "education_requirements": "Degree in Computer Science, Software Engineering, or related field OR bootcamp + portfolio",
+  "salary_range": "$75,000 – $95,000 CAD",
+  "key_responsibilities": [
+    "Implement UI and API tickets with mentorship",
+    "Write unit tests",
+    "Learn production practices and participate in code review"
+  ],
+  "slug": "junior-software-developer-shopify",
+  "source_file": "06-junior-shopify.txt",
+  "extracted_at": "2026-08-09T19:48:01.560Z",
+  "company_research": {
+    "company_size": "5,000-10,000 employees (7,600 as of July 2026)",
+    "industry": "E-commerce, IT Software & Services, Software - Application",
+    "recent_news": [
+      "May 2026: Shopify announced layoffs affecting 30 employees in revenue operations as part of restructuring efforts. (Source: https://www.interviewpal.com/layoffs/shopify)",
+      "November 2025: Shopify made layoffs, stating the changes were intended to remove organizational layers. These affected managerial roles in merchant success, operations, sales, and account executive teams. (Source: https://whittenlublin.com/blog/shopify-layoffs-another-round-of-job-cuts, https://www.linkedin.com/posts/madison-mclauchlan-9730581b5_shopify-says-recent-layoffs-removed-layers-activity-7399211769602387968-huis)",
+      "November 2025: Layoffs were influenced by AI. (Source: https://www.youtube.com/watch?v=Sj_nJwAm5Z8)",
+      "2022 and 2023: Shopify conducted significant workforce reductions due to misjudging the duration of the pandemic-driven e-commerce boom. (Source: https://whittenlublin.com/blog/shopify-layoffs-another-round-of-job-cuts)",
+      "July 2022: Shopify planned to lay off 10% of its workers across all divisions, with most cuts in recruiting, support, and sales. (Source: https://www.cnbc.com/2022/07/26/shopify-sinks-12percent-after-company-plans-to-lay-off-10percent-of-workers.html)"
+    ],
+    "culture_signals": [
+      "Positive: Empowering culture with great people, strong values, and diversity. (Source: https://shopify.engineering/topics/culture)",
+      "Positive: Focus on improving employee life and engagement. (Source: https://workleap.com/blog/shopify-company-culture)",
+      "Positive: Involvement with charities and giving back. (Source: https://workleap.com/blog/shopify-company-culture)",
+      "Positive: Strengths in ownership, efficient written-first practices, and mission-driven pride. (Source: https://builtin.com/company/shopify/faq/culture-values)",
+      "Negative: Fatigue from restructurings and a harder performance tone. (Source: https://builtin.com/company/shopify/faq/culture-values)",
+      "Negative: Perceived pullbacks on inclusion, with reported pauses in funding for employee resource groups and scaled-back DEI initiatives. (Source: https://builtin.com/company/shopify/faq/culture-values)",
+      "Negative: High-pressure and micromanaging culture with leadership emphasis on aggressive productivity and mandatory AI use. (Source: https://builtin.com/company/shopify/faq/culture-values)",
+      "Negative: Culture geared toward self-directed builders moving at speed, with day-to-day experience varying based on team stability and tolerance for pressure and change. (Source: https://builtin.com/company/shopify/faq/culture-values)"
+    ],
+    "sources": [
+      "https://www.forbes.com/companies/shopify",
+      "https://www.zoominfo.com/c/shopify-inc/137527486",
+      "https://www.globaldata.com/company-profile/shopify-inc",
+      "https://en.wikipedia.org/wiki/Shopify",
+      "https://finance.yahoo.com/quote/SHOP/profile",
+      "https://www.interviewpal.com/layoffs/shopify",
+      "https://whittenlublin.com/blog/shopify-layoffs-another-round-of-job-cuts",
+      "https://www.linkedin.com/posts/madison-mclauchlan-9730581b5_shopify-says-recent-layoffs-removed-layers-activity-7399211769602387968-huis",
+      "https://www.youtube.com/watch?v=Sj_nJwAm5Z8",
+      "https://www.cnbc.com/2022/07/26/shopify-sinks-12percent-after-company-plans-to-lay-off-10percent-of-workers.html",
+      "https://www.shopify.com/blog/what-is-corporate-culture",
+      "https://www.shopify.com/enterprise/blog/ecommerce-growth-hacks-culture",
+      "https://builtin.com/company/shopify/faq/culture-values",
+      "https://shopify.engineering/topics/culture",
+      "https://workleap.com/blog/shopify-company-culture"
+    ],
+    "notes": "Shopify is a Canadian multinational e-commerce company with 7,600 employees as of July 2026. It operates in the IT Software & Services and E-commerce industries. The company has undergone several rounds of layoffs in recent years, including in May 2026, November 2025, and significant reductions in 2022 and 2023, often citing restructuring, efficiency improvements, and misjudging market conditions. While Shopify promotes an empowering culture with strong values and a focus on employee well-being, there are also signals of fatigue from restructurings, a harder performance tone, and concerns regarding pullbacks on inclusion and a high-pressure environment."
+  }
+}

@@ -1,0 +1,25 @@
+Senior Frontend Engineer
+Company: Notion
+Location: San Francisco, CA (Hybrid) / Remote US
+Posted 12 days ago
+Compensation: $160k–$210k + equity
+
+Notion seeks a Senior Frontend Engineer to own performance and UX of our collaborative editor.
+
+Must have
+- 5+ years frontend engineering
+- Expert-level TypeScript and React
+- Deep knowledge of browser performance, accessibility (WCAG), and testing (Jest/Playwright)
+- Experience with complex client-state architectures
+
+Nice to have
+- WebAssembly, canvas, or rich-text editor experience
+- GraphQL
+- Design systems / Storybook
+
+You will
+- Ship editor features with designers
+- Profile and improve load/interaction performance
+- Maintain frontend quality bars and mentoring
+
+Apply via notion.so/careers

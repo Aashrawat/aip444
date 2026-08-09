@@ -1,0 +1,58 @@
+{
+  "job_title": "Senior Staff Distributed Systems Engineer",
+  "company_name": "Jane Street",
+  "location": "New York, NY",
+  "remote_status": "onsite",
+  "posting_age_days": 2,
+  "posting_date_note": null,
+  "required_skills": [
+    "10+ years low-latency systems in C++ or OCaml",
+    "Deep expertise in kernel bypass networking",
+    "Published research in distributed consensus or market microstructure preferred",
+    "Experience building proprietary trading exchange matching engines"
+  ],
+  "preferred_skills": [
+    "FPGA familiarity",
+    "Competitive programming medals",
+    "Prior HFT firm experience (Citadel Securities, Jump, etc.)"
+  ],
+  "experience_level": "10+ years",
+  "education_requirements": null,
+  "salary_range": "$300,000 – $500,000+",
+  "key_responsibilities": [],
+  "slug": "senior-staff-distributed-systems-engineer-jane-street",
+  "source_file": "weak-fit-janestreet.txt",
+  "extracted_at": "2026-08-09T19:35:16.502Z",
+  "company_research": {
+    "company_size": "3,000-3,500 employees (2024)",
+    "industry": "Financial Services, High-frequency trading, Market maker",
+    "recent_news": [
+      "Jane Street is on a hiring spree, planning to hire 500 more employees across trading, technology, research, and infrastructure roles, with notable expansion in Hong Kong and London. (Source: https://cryptobriefing.com/jane-street-expands-workforce-hiring)",
+      "Jane Street recently placed an offer to lease a new London office that will double its footprint in the UK capital. (Source: https://m.economictimes.com/markets/us-stocks/news/jane-street-employees-set-to-get-2-68-million-payout-after-record-revenue-haul/articleshow/130711040.cms)"
+    ],
+    "culture_signals": [
+      "Open-minded and collaborative culture, where employees are encouraged to propose new ideas and engage in technical discussions. (Source: https://signalsandthreads.com/an-inside-look-at-jane-streets-tech-internship)",
+      "Tech-like culture with perks such as free breakfast and lunch, snack stations, and a casual dress code. (Source: https://digitalfreepen.com/2017/01/07/jane-street-thinking.html)",
+      "Employees, especially interns, engage in betting on various things. (Source: https://digitalfreepen.com/2017/01/07/jane-street-thinking.html)",
+      "Strong emphasis on puzzle-solving, mathematical, and quantitative professionals. (Source: https://www.youtube.com/watch?v=6LkMI6uvqZY&vl=en)"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jane_Street_Capital",
+      "https://www.ft.com/content/54671865-4c7f-4692-a879-867ef68f0bde",
+      "https://www.youtube.com/watch?v=6LkMI6uvqZY&vl=en",
+      "https://underthemarketlens.substack.com/p/jane-street-trading-firm-39-6-billion-revenue-explained",
+      "https://www.janestreet.com/who-we-are",
+      "https://cryptobriefing.com/jane-street-expands-workforce-hiring",
+      "https://m.economictimes.com/markets/us-stocks/news/jane-street-employees-set-to-get-2-68-million-payout-after-record-revenue-haul/articleshow/130711040.cms",
+      "https://www.teamblind.com/company/Jane-Street/posts/jane-street-layoffs",
+      "https://jamaalglenn.substack.com/p/jane-street-made-9-million-per-employee",
+      "https://timesofindia.indiatimes.com/world/us/jane-street-doles-out-2-7million-payout-per-employee/articleshow/130708809.cms",
+      "https://signalsandthreads.com/an-inside-look-at-jane-streets-tech-internship",
+      "https://digitalfreepen.com/2017/01/07/jane-street-thinking.html",
+      "https://www.youtube.com/watch?v=1KgsgiHWy78",
+      "https://www.instagram.com/reel/DbLs1zJRadz",
+      "https://www.janestreet.com/culture/street-view/behind-the-scenes-with-signals-and-threads"
+    ],
+    "notes": "Jane Street is a highly quantitative trading firm with a significant presence in high-frequency trading and market making. They have experienced substantial growth and are actively expanding their workforce and global footprint. The company culture appears to be intellectually stimulating and collaborative, with a focus on technology and quantitative analysis. While there were some mentions of layoffs in general tech discussions, there is no specific news indicating Jane Street itself has had recent layoffs; in fact, they are actively hiring."
+  }
+}

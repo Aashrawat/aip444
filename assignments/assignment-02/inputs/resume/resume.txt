@@ -1,0 +1,41 @@
+Aashrawat Shrestha
+Software Engineer | Toronto, ON | aashrawatsth123@example.com | github.com/example
+
+SUMMARY
+Full-stack software engineer with ~3 years building web applications in TypeScript, React, and Node.js. Comfortable with PostgreSQL, REST APIs, and CI/CD. Interested in developer tools and product-minded engineering.
+
+SKILLS
+Hard skills: TypeScript, JavaScript, React, Node.js, Express, PostgreSQL, REST APIs, Git, Docker, Jest, HTML/CSS
+Soft skills: Collaboration, code review, mentoring interns, clear written communication
+Keywords: Agile, CI/CD, microservices (exposure), REST API design, pair programming
+
+EXPERIENCE
+Software Developer — Northwind Labs (Toronto)
+Jan 2023 – Present
+- Built and maintained customer dashboard features in React + TypeScript
+- Designed Node.js REST endpoints backed by PostgreSQL; reduced p95 latency 30% on key reads
+- Added GitHub Actions CI for lint/test; introduced Playwright smoke tests
+- Collaborated with product and design in two-week sprints
+
+Junior Developer — Contoso Apps (Co-op)
+May 2021 – Dec 2022
+- Implemented UI components and bug fixes in a React codebase
+- Wrote SQL queries and small ETL scripts in Python
+- Participated in on-call shadowing and incident write-ups
+
+EDUCATION
+B.Sc. Computer Science — Example University
+2018 – 2022
+Coursework: Data Structures, Databases, Operating Systems, Web Development
+
+CERTIFICATIONS
+- freeCodeCamp Responsive Web Design
+- AWS Cloud Practitioner (in progress)
+
+PROJECTS
+DeployBoard
+- Personal project: deploy status dashboard using Node.js, React, and PostgreSQL
+- Technologies: TypeScript, Docker Compose, GitHub Actions
+
+Open Contribution
+- Fixed documentation and a small TypeScript bug in a popular CLI tool

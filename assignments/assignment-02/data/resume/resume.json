@@ -1,0 +1,152 @@
+{
+  "candidate_name": "Aashrawat Shrestha",
+  "hard_skills": [
+    "C",
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "scikit-learn",
+    "NumPy",
+    "TensorFlow",
+    "PyTorch",
+    "Node.js",
+    "Express.js",
+    "EJS",
+    "React",
+    "REST APIs",
+    "gRPC",
+    "Drizzle ORM",
+    "MVC architecture",
+    "MongoDB",
+    "SQLite",
+    "Data structures",
+    "Algorithms",
+    "Object-oriented programming",
+    "Software testing",
+    "QA",
+    "Technical troubleshooting",
+    "Help desk support",
+    "Windows",
+    "Linux",
+    "Account access",
+    "Ticketing",
+    "Machine learning",
+    "Docker",
+    "CI/CD",
+    "Azure",
+    "Cloud computing",
+    "OpenCV",
+    "LBPH",
+    "Mailgun",
+    "TanStack Start",
+    "Turborepo",
+    "Vitest",
+    "Playwright"
+  ],
+  "soft_skills": [
+    "Problem solving",
+    "Communication",
+    "Agile methodologies"
+  ],
+  "work_experience": [
+    {
+      "role": "IT Support Assistant",
+      "company": "Seneca College",
+      "duration": "May 2025 – May 2026",
+      "responsibilities": [
+        "Provided technical support for students and staff in labs, classrooms, and at the help desk",
+        "Resolved hardware, software, login, Wi-Fi, and printing issues on Windows and Linux systems",
+        "Reset accounts, restored access, and escalated complex tickets while keeping users updated on progress",
+        "Documented recurring issues and fixes to improve response time and team consistency"
+      ],
+      "achievements": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "Diploma in Computer Programming",
+      "institution": "Seneca College",
+      "relevant_coursework": [
+        "Data Structures & Algorithms",
+        "Advanced Object-Oriented Programming (C++)",
+        "Web Services and Frameworks",
+        "Database Systems",
+        "Software Testing & QA",
+        "Linux",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Project Management"
+      ]
+    }
+  ],
+  "certifications": [
+    "HackerRank Software Developer Certificate"
+  ],
+  "projects": [
+    {
+      "name": "Chirp — Twitter Clone",
+      "description": "Built a full-stack Twitter-like platform in a TypeScript monorepo with gRPC API, user-facing web app, and admin moderation dashboard. Implemented core social features including posts, comments, likes, follows, bookmarks, notifications, search, and user profiles. Improved backend security with bcrypt password hashing and optimized N+1 query patterns into batched post enrichment across feed and search services. Added structured logging, trace IDs, unified gRPC error handling, and CI/CD with GitHub Actions, Vitest, and Playwright.",
+      "technologies": [
+        "TypeScript",
+        "React 19",
+        "TanStack Start",
+        "Node.js",
+        "gRPC",
+        "Drizzle ORM",
+        "SQLite",
+        "Turborepo",
+        "Vitest",
+        "Playwright"
+      ]
+    },
+    {
+      "name": "DIY Hotpot Web Application",
+      "description": "Built a full-stack food ordering application supporting user authentication, menu management, and order processing using Node.js, Express, MongoDB, EJS, and Mailgun. Separated routes, controllers, and models for maintainable full-stack development. Implemented login/signup basics and MongoDB persistence for users and order-related data. Delivered an end-to-end prototype from UI through API layer to database integration.",
+      "technologies": [
+        "Node.js",
+        "Express",
+        "EJS",
+        "MongoDB",
+        "Mailgun",
+        "MVC"
+      ]
+    },
+    {
+      "name": "Face Recognition System",
+      "description": "Trained a custom face recognizer on labeled photos using OpenCV LBPH with webcam capture for dataset collection. Built train-and-export workflow for a reusable face model with NumPy-backed image processing. Delivered live webcam detection and single-image recognition for practical ML experimentation.",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "LBPH",
+        "NumPy"
+      ]
+    },
+    {
+      "name": "College Final Year Project — Advanced C++",
+      "description": "Designed object-oriented architecture with reusable classes, modular structure, and clear problem-solving flow. Applied inheritance, polymorphism, and encapsulation for extensible domain modeling. Completed academic capstone focused on class design and a polished, maintainable final deliverable.",
+      "technologies": [
+        "C++",
+        "Advanced OOP",
+        "Class design"
+      ]
+    }
+  ],
+  "keywords_and_domain_expertise": [
+    "Software engineering",
+    "Full-stack practice",
+    "IT support",
+    "Machine learning foundations",
+    "Cloud computing",
+    "Problem solving",
+    "Software testing & QA",
+    "Technical troubleshooting",
+    "Help desk support",
+    "Agile methodologies"
+  ],
+  "source_file": "resume.pdf",
+  "extracted_at": "2026-08-09T19:49:10.292Z"
+}

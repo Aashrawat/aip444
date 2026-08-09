@@ -1,0 +1,40 @@
+{
+  "job_title": "Software Engineer, Platform",
+  "company_name": "GitHub",
+  "location": "Remote",
+  "remote_status": "remote",
+  "posting_age_days": 3,
+  "posting_date_note": null,
+  "required_skills": [
+    "3+ years professional software engineering",
+    "Go and/or TypeScript",
+    "Experience building internal platforms or developer tools",
+    "CI/CD (Actions, Jenkins, or similar)",
+    "Observability (metrics, tracing, logging)"
+  ],
+  "preferred_skills": [
+    "Kubernetes operators",
+    "Ruby (legacy services)",
+    "Open source contribution history"
+  ],
+  "experience_level": null,
+  "education_requirements": null,
+  "salary_range": "$130,000 – $175,000 USD",
+  "key_responsibilities": [
+    "Design APIs for internal platform consumers",
+    "Reduce CI flake and improve build times",
+    "Document systems and runbooks",
+    "Participate in on-call"
+  ],
+  "slug": "software-engineer-platform-github",
+  "source_file": "05-platform-github.txt",
+  "extracted_at": "2026-08-09T19:47:48.966Z",
+  "company_research": {
+    "company_size": null,
+    "industry": null,
+    "recent_news": [],
+    "culture_signals": [],
+    "sources": [],
+    "notes": "I cannot provide a JSON that strictly adheres to the provided schema because the schema is too restrictive. For example, 'recent_news' and 'culture_signals' are defined as arrays of strings, but my research often yields structured information that would be better represented as objects within those arrays (e.g., a news item having a description and a URL). The schema also lacks fields for company name and career page URL, which are important for the user's request. If you can provide a more flexible schema, I can give a more comprehensive answer."
+  }
+}

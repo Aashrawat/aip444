@@ -1,0 +1,66 @@
+{
+  "job_title": "Software Engineer, Full Stack",
+  "company_name": "Linear",
+  "location": "Remote (Canada eligible)",
+  "remote_status": "remote",
+  "posting_age_days": 4,
+  "posting_date_note": null,
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL"
+  ],
+  "preferred_skills": [
+    "Real-time sync / optimistic UI",
+    "GraphQL",
+    "Electron"
+  ],
+  "experience_level": "3+ years professional experience",
+  "education_requirements": null,
+  "salary_range": "$120,000 – $160,000 USD",
+  "key_responsibilities": [
+    "Ship end-to-end features across web client and API",
+    "Improve performance of list views and search",
+    "Write tests and maintain high code quality",
+    "Work closely with design"
+  ],
+  "slug": "software-engineer-full-stack-linear",
+  "source_file": "linear-fullstack.txt",
+  "extracted_at": "2026-08-09T19:34:35.087Z",
+  "company_research": {
+    "company_size": "Over 40,000 product teams use Linear, including 45% of Y Combinator companies and 66% of top AI startups. The company has around 100 employees.",
+    "industry": "Software Development, Issue Tracking, Project Management",
+    "recent_news": [
+      "Linear is actively hiring, with 17 open roles listed on their careers page and plans to open more positions in the second half of the year. (Source: https://www.businessinsider.com/linear-cofounder-hiring-ai-driven-layoffs-joke-2026-5)",
+      "Linear recently announced new features like coding sessions on mobile and AI credits for Loops. (Source: https://www.linkedin.com/company/linearapp)"
+    ],
+    "culture_signals": [
+      "Linear is known for its speed-obsessed engineering teams, keyboard-first UX, and focus on craft and quality in software development. They prioritize building a better product over inventing new things. The company operates with a remote-first approach and has a deliberate geographic distribution across North America and Europe. (Source: https://newsletter.pragmaticengineer.com/p/linear, https://www.techinterview.org/companies/linear)",
+      "The company's pace is described as deliberate, neither frantic startup nor slow enterprise. (Source: https://www.techinterview.org/companies/linear)",
+      "No specific information found regarding diversity and inclusion initiatives.",
+      "No specific information found regarding career development and growth, but the company emphasizes hiring people who embody their engineering culture and care about the craft of software. (Source: https://newsletter.pragmaticengineer.com/p/linear)",
+      "Linear publishes its compensation philosophy publicly, with transparent location adjustments that are smaller than many remote-first companies. They offer private-company equity valued at 2024 Series C marks, with a 4-year vest and 1-year cliff. (Source: https://www.techinterview.org/companies/linear)",
+      "Linear's mission is to inspire and accelerate builders. Their core principles include shipping early, building with users, knowing what good looks like, thinking in principles, and building things that last. (Source: https://linear.app/careers)",
+      "Linear is a design-driven company that focuses on building a polished product. They are known for saying 'no' to most feature requests to maintain focus and avoid product bloat. (Source: https://www.reddit.com/r/UXDesign/comments/1cbcziw/linear_app_built_400m_issue_tracker_with_next_to, https://aakashgupta.medium.com/linear-hit-1-25b-with-100-employees-heres-how-they-did-it-54e168a5145f)"
+    ],
+    "sources": [
+      "https://pangea.app/glossary/linear",
+      "https://linear.app",
+      "https://play.google.com/store/apps/details?id=app.linear&hl=en_US",
+      "https://www.youtube.com/watch?v=qaR4jRrc1Iw",
+      "https://www.dictionary.com/browse/linear",
+      "https://www.businessinsider.com/linear-cofounder-hiring-ai-driven-layoffs-joke-2026-5",
+      "https://linear.app/now",
+      "https://www.linkedin.com/company/linearapp",
+      "https://loopofthought.substack.com/p/linear-accidentally-put-the-ai-layoff",
+      "https://medium.com/linear-app/linear-raises-13m-in-series-a-funding-from-sequoia-capital-daa0f0c43758",
+      "https://www.reddit.com/r/UXDesign/comments/1cbcziw/linear_app_built_400m_issue_tracker_with_next_to",
+      "https://newsletter.pragmaticengineer.com/p/linear",
+      "https://www.techinterview.org/companies/linear",
+      "https://aakashgupta.medium.com/linear-hit-1-25b-with-100-employees-heres-how-they-did-it-54e168a5145f",
+      "https://linear.app/careers"
+    ],
+    "notes": null
+  }
+}

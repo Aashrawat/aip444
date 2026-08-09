@@ -1,0 +1,17 @@
+Senior Staff Distributed Systems Engineer
+Company: Jane Street
+Location: New York, NY (Onsite)
+Posted: 2 days ago
+Salary: $300,000 – $500,000+
+
+Requirements
+- 10+ years low-latency systems in C++ or OCaml
+- Deep expertise in kernel bypass networking, FPGA familiarity preferred
+- Published research in distributed consensus or market microstructure preferred
+- Experience building proprietary trading exchange matching engines
+
+Preferred
+- Competitive programming medals
+- Prior HFT firm experience (Citadel Securities, Jump, etc.)
+
+This role is intentionally a weak-fit stretch target for a typical full-stack TypeScript engineer.

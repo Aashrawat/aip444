@@ -1,0 +1,27 @@
+Backend Software Engineer
+Company: Stripe
+Location: Remote (Canada / US)
+Posted: June 28, 2026
+Salary: $140,000 – $190,000 USD
+
+Stripe is looking for a Backend Software Engineer on the Payments Platform team.
+
+Required
+- 4+ years backend engineering
+- Proficiency in Go, Java, or Ruby
+- Strong distributed systems fundamentals (queues, idempotency, consistency)
+- Experience with PostgreSQL or similar
+- Solid understanding of HTTP APIs and security best practices
+
+Preferred
+- Experience in fintech or payments
+- Kubernetes and Terraform
+- Kafka or similar event streaming
+
+Responsibilities
+- Build reliable payment APIs used by millions of businesses
+- Own services through design, implementation, and production operations
+- Partner with security and compliance stakeholders
+- Mentor junior engineers
+
+Official posting: stripe.com/jobs

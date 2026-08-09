@@ -1,0 +1,74 @@
+{
+  "job_title": "Full Stack Engineer",
+  "company_name": "Figma",
+  "location": "Remote (US)",
+  "remote_status": "remote",
+  "posting_age_days": 25,
+  "posting_date_note": null,
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Real-time systems experience (WebSockets, CRDTs, or similar)",
+    "Strong product sense",
+    "design collaboration skills",
+    "PostgreSQL or similar"
+  ],
+  "preferred_skills": [
+    "WebGL / canvas",
+    "Rust or C++ for performance-sensitive components",
+    "Prior design-tool or creative-software experience"
+  ],
+  "experience_level": "4+ years shipping web products",
+  "education_requirements": null,
+  "salary_range": "$145,000 – $195,000 + equity",
+  "key_responsibilities": [
+    "ship multiplayer features",
+    "improve sync performance",
+    "uphold accessibility",
+    "mentor engineers"
+  ],
+  "slug": "full-stack-engineer-figma",
+  "source_file": "09-fullstack-figma.txt",
+  "extracted_at": "2026-08-09T19:48:36.269Z",
+  "company_research": {
+    "company_size": "1,646 - 1,886 employees",
+    "industry": "Content & Collaboration Software, Software, Engineering Software, Multimedia, Games & Graphics Software, Product design and development",
+    "recent_news": [
+      "Figma's planned $20 billion acquisition by Adobe fell through in December 2023 due to antitrust concerns. (Source: https://www.forbes.com/companies/figma)",
+      "Figma is expanding its London office and hiring more staff, despite a wider tech hiring downturn. (Source: https://www.cityam.com/figma-plots-london-office-expansion-despite-fresh-wave-of-tech-layoffs)",
+      "Figma plans to double its NYC-based staff by 2034. (Source: https://finance.yahoo.com/news/design-firm-figma-double-nyc-130000967.html)",
+      "Figma has gained new customers, including Anthropic and Prenuvo Inc., and Yum! Brands Inc.'s Taco Bell has substantially expanded its use of Figma in 2024. (Source: https://finance.yahoo.com/news/design-firm-figma-double-nyc-130000967.html)",
+      "Figma unveiled Figma AI at its annual user conference, Config, in June. (Source: https://www.forbes.com/companies/figma)",
+      "Figma has focused on making its existing product more useful to software engineers with a tool called Dev Mode. (Source: https://finance.yahoo.com/news/design-firm-figma-double-nyc-130000967.html)",
+      "Figma announced new product updates at Config 2026, including code layers, Figma Motion, shaders, generative plugins, and Weave tools. (Source: https://www.figma.com/newsroom)",
+      "Figma is rolling out updates to its file organization system, replacing 'Projects' with 'Folders' and allowing for nested folders and color-coding. (Source: https://www.figma.com/release-notes)"
+    ],
+    "culture_signals": [
+      "Praised for its supportive and collaborative atmosphere. (Source: https://www.glassdoor.com/Reviews/Figma-culture-Reviews-EI_IE1537286.0,5_KH6,13.htm)",
+      "Employees enjoy a playful culture that fosters innovation. (Source: https://www.glassdoor.com/Reviews/Figma-culture-Reviews-EI_IE1537286.0,5_KH6,13.htm)",
+      "Many employees appreciate the bright and humble colleagues. (Source: https://www.glassdoor.com/Reviews/Figma-Reviews-E1537286.htm)",
+      "Glassdoor rating of 4.8 out of 5 for culture and values in New York City. (Source: https://www.glassdoor.com/Reviews/Figma-New-York-City-Reviews-EI_IE1537286.0,5_IL.6,19_IM615.htm)",
+      "Some Blind and Glassdoor reviews suggest the culture has changed dramatically for the worse since the IPO. (Source: https://www.teamblind.com/post/what-is-working-at-figma-like-pi3t6bft)",
+      "Overall Glassdoor employee rating of 3.6 out of 5 stars, with Culture & values at 3.1, Career opportunities at 3.0, Work/Life balance at 2.9, and Senior management at 2.9. (Source: https://www.glassdoor.com/Overview/Working-at-Figma-EI_IE1537286.11,16.htm)"
+    ],
+    "sources": [
+      "https://www.zoominfo.com/c/figma-inc/357900487",
+      "https://research.contrary.com/company/figma",
+      "https://www.forbes.com/companies/figma",
+      "https://finance.yahoo.com/quote/FIG/profile",
+      "https://theirstack.com/en/technology/figma",
+      "https://www.cityam.com/figma-plots-london-office-expansion-despite-fresh-wave-of-tech-layoffs",
+      "https://finance.yahoo.com/news/design-firm-figma-double-nyc-130000967.html",
+      "https://www.teamblind.com/company/Figma/posts/figma-layoffs",
+      "https://www.figma.com/newsroom",
+      "https://www.figma.com/release-notes",
+      "https://www.glassdoor.com/Reviews/Figma-culture-Reviews-EI_IE1537286.0,5_KH6,13.htm",
+      "https://www.glassdoor.com/Reviews/Figma-Reviews-E1537286.htm",
+      "https://www.glassdoor.com/Overview/Working-at-Figma-EI_IE1537286.11,16.htm",
+      "https://www.glassdoor.com/Reviews/Figma-New-York-City-Reviews-EI_IE1537286.0,5_IL.6,19_IM615.htm",
+      "https://www.teamblind.com/post/what-is-working-at-figma-like-pi3t6bft"
+    ],
+    "notes": "Figma is actively expanding and innovating, particularly in AI and developer tools, following the failed acquisition by Adobe. While some employees express concerns about culture changes post-IPO, many still praise the collaborative and innovative environment."
+  }
+}

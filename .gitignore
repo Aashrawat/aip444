@@ -3,3 +3,5 @@ node_modules
 .cache
 chroma_db/
 labs/lab-07/chroma_db/
+assignments/assignment-02/inputs/**/*.pdf
+assignments/assignment-02/inputs/**/*.docx

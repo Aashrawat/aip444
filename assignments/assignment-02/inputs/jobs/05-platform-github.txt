@@ -1,0 +1,27 @@
+Software Engineer, Platform
+Company: GitHub
+Location: Remote
+Posted 3 days ago
+Pay: $130,000 – $175,000 USD
+
+GitHub is hiring a Platform Software Engineer to improve developer productivity tooling.
+
+Required skills
+- 3+ years professional software engineering
+- Go and/or TypeScript
+- Experience building internal platforms or developer tools
+- CI/CD (Actions, Jenkins, or similar)
+- Observability (metrics, tracing, logging)
+
+Preferred
+- Kubernetes operators
+- Ruby (legacy services)
+- Open source contribution history
+
+Key responsibilities
+- Design APIs for internal platform consumers
+- Reduce CI flake and improve build times
+- Document systems and runbooks
+- Participate in on-call
+
+Listed on github.com/about/careers

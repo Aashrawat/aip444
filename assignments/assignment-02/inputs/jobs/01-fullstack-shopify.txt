@@ -1,0 +1,29 @@
+Software Engineer — Full Stack
+Company: Shopify
+Location: Toronto, ON (Hybrid)
+Posted: 5 days ago
+Salary: $110,000 – $150,000 CAD
+
+About the role
+We are hiring a Full Stack Software Engineer to build merchant-facing tools on our Ruby and React stack. You will ship features end-to-end with product and design.
+
+Requirements
+- 3+ years professional software development
+- Strong TypeScript and React
+- Experience with REST APIs and relational databases (PostgreSQL or MySQL)
+- Comfortable with Git, CI/CD, and code review
+- Bachelor's degree in CS or equivalent experience
+
+Nice to have
+- Ruby on Rails
+- GraphQL
+- Experience with high-traffic e-commerce systems
+- AWS or GCP familiarity
+
+Responsibilities
+- Design, implement, and maintain full-stack features
+- Write tests and participate in on-call rotations
+- Collaborate with product managers on roadmap items
+- Improve developer experience and observability
+
+Apply at careers.shopify.com. Contact: recruiting@shopify.com

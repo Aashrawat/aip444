@@ -1,0 +1,23 @@
+Full Stack Engineer
+Company: Figma
+Location: Remote (US)
+Posted: 2026-07-15
+Salary: $145,000 – $195,000 + equity
+
+Figma is looking for a Full Stack Engineer on the Collaboration team.
+
+Requirements:
+- 4+ years shipping web products
+- TypeScript, React, and Node.js
+- Real-time systems experience (WebSockets, CRDTs, or similar) strongly preferred
+- Strong product sense and design collaboration skills
+- Experience with PostgreSQL or similar
+
+Preferred:
+- WebGL / canvas
+- Rust or C++ for performance-sensitive components
+- Prior design-tool or creative-software experience
+
+Responsibilities: ship multiplayer features, improve sync performance, uphold accessibility, mentor engineers.
+
+figma.com/careers

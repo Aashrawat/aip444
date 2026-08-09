@@ -1,0 +1,28 @@
+{
+  "name": "assignment-02-job-search",
+  "version": "1.0.0",
+  "description": "Job Search assistant: market analysis, resume gaps, application advisor",
+  "type": "module",
+  "scripts": {
+    "market": "tsx src/cli/market.ts",
+    "gaps": "tsx src/cli/gaps.ts",
+    "advise": "tsx src/cli/advise.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.8.1",
+    "@tavily/core": "^0.7.6",
+    "dotenv": "^17.4.2",
+    "mammoth": "^1.9.0",
+    "openai": "^6.42.0",
+    "pdf-parse": "^1.1.1",
+    "whoiser": "^1.18.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "@types/pdf-parse": "^1.1.4",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}

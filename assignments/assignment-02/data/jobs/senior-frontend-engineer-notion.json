@@ -1,0 +1,73 @@
+{
+  "job_title": "Senior Frontend Engineer",
+  "company_name": "Notion",
+  "location": "San Francisco, CA",
+  "remote_status": "hybrid",
+  "posting_age_days": 12,
+  "posting_date_note": null,
+  "required_skills": [
+    "TypeScript",
+    "React",
+    "browser performance",
+    "accessibility (WCAG)",
+    "testing (Jest/Playwright)",
+    "complex client-state architectures"
+  ],
+  "preferred_skills": [
+    "WebAssembly",
+    "canvas",
+    "rich-text editor experience",
+    "GraphQL",
+    "Design systems",
+    "Storybook"
+  ],
+  "experience_level": "5+ years frontend engineering",
+  "education_requirements": null,
+  "salary_range": "$160k–$210k + equity",
+  "key_responsibilities": [
+    "Ship editor features with designers",
+    "Profile and improve load/interaction performance",
+    "Maintain frontend quality bars and mentoring"
+  ],
+  "slug": "senior-frontend-engineer-notion",
+  "source_file": "03-frontend-notion.txt",
+  "extracted_at": "2026-08-09T19:47:34.719Z",
+  "company_research": {
+    "company_size": "501-1,000 employees",
+    "industry": "Software Development, Business/Productivity Software, Design collaboration software",
+    "recent_news": [
+      "Notion acquired Cron (calendar app) and Flowdash (work tracking software) in 2022, indicating expansion.",
+      "Notion launched its AI-based writing assistant in February 2023, with continuous expansions and integrations (e.g., GLM 5.2, Box AI Connector).",
+      "Notion crossed $500 million in annualized revenue and launched Notion AI Agent in September 2025.",
+      "Notion released version 3.0 with autonomous AI Agents and expanded MCP connectors in September 2025.",
+      "Notion bundled unlimited Notion AI usage into Business and Enterprise tiers in May 2025.",
+      "Notion introduced Notion Workers (hosted runtime for custom code) in July 2026.",
+      "No news of layoffs was found in the search results."
+    ],
+    "culture_signals": [
+      "Notion fosters a collaborative culture where engineers provide feedback and input on technical specifications, avoiding isolated work.",
+      "The company highly values 'craft' in both its product and culture, emphasizing passion for making the product better and more intuitive.",
+      "Notion has a rigorous hiring process that includes thorough signals on candidates and strong emphasis on references as a predictor of success.",
+      "The company aims to be a lasting organization where employees can do their best and most meaningful work, finding fulfillment.",
+      "While Notion offers hybrid/remote options, particularly for security-related engineering roles, the remote work culture may not be as flexible as fully remote companies, with some employees noting a difference compared to previous employers."
+    ],
+    "sources": [
+      "https://www.linkedin.com/company/notionhq",
+      "https://pitchbook.com/profiles/company/168506-47",
+      "https://www.forbes.com/companies/notion",
+      "https://research.contrary.com/company/notion",
+      "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+      "https://www.reworked.co/collaboration-productivity/notion-wants-users-not-cios-to-adopt-its-productivity-platform",
+      "https://sqmagazine.co.uk/how-many-people-work-at-notion",
+      "https://matthiasfrank.de/en/notion-updates",
+      "https://www.notion.com/releases",
+      "https://www.youtube.com/watch?v=g6u7_B8IrQc",
+      "https://builtin.com/company/notion/faq/culture-values",
+      "https://www.builtinsf.com/articles/why-craft-defines-notions-culture",
+      "https://www.linkedin.com/company/notionhq/life",
+      "https://www.notion.com/blog/how-notion-hires",
+      "https://www.teamblind.com/post/what-is-notions-remote-work-culture-like-sjinwo4x"
+    ],
+    "notes": null
+  }
+}

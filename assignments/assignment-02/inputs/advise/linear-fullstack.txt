@@ -1,0 +1,27 @@
+Software Engineer, Full Stack
+Company: Linear
+Location: Remote (Canada eligible)
+Posted: 4 days ago
+Salary: $120,000 – $160,000 USD
+
+Linear is hiring a Full Stack Software Engineer to improve issue tracking workflows.
+
+Requirements
+- 3+ years professional experience
+- Strong TypeScript and React
+- Node.js backend experience
+- PostgreSQL
+- Product sense and attention to UX polish
+
+Nice to have
+- Real-time sync / optimistic UI
+- GraphQL
+- Electron
+
+Responsibilities
+- Ship end-to-end features across web client and API
+- Improve performance of list views and search
+- Write tests and maintain high code quality
+- Work closely with design
+
+Apply at linear.app/careers — recruiting@linear.app

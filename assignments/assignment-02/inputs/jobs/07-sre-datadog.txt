@@ -1,0 +1,27 @@
+DevOps / Site Reliability Engineer (Software-focused)
+Company: Datadog
+Location: Remote (North America)
+Posted: July 1, 2026
+Compensation: $125,000 – $165,000 USD
+
+Datadog is hiring an SRE with a software engineering focus.
+
+Required
+- 3+ years in SRE, DevOps, or backend engineering
+- Strong coding skills in Python or Go
+- Kubernetes and container orchestration experience
+- Terraform or equivalent IaC
+- Experience with monitoring/alerting (bonus if Datadog)
+
+Preferred
+- AWS and GCP
+- Service mesh / networking fundamentals
+- Incident management leadership
+
+Responsibilities
+- Automate operational toil
+- Improve reliability of multi-tenant SaaS systems
+- Partner with product engineering on SLOs
+- Lead post-incident reviews
+
+Apply: careers.datadoghq.com

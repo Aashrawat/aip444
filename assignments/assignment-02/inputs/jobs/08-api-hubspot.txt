@@ -1,0 +1,25 @@
+Software Engineer — API & Integrations
+Company: HubSpot
+Location: Remote US/Canada
+Posted 8 days ago
+Salary: $115,000 – $155,000 USD
+
+Build and maintain public APIs and partner integrations.
+
+Must-haves
+- 3+ years backend or full-stack experience
+- Node.js or Java
+- Designing REST (and ideally GraphQL) APIs
+- Experience with OAuth, webhooks, and rate limiting
+- Automated testing culture
+
+Nice-to-haves
+- TypeScript
+- Kafka / event-driven architecture
+- CRM or SaaS product experience
+
+You will own integration reliability, write developer documentation, collaborate with partner engineers, and improve API versioning strategy.
+
+Education: Bachelor's or equivalent practical experience.
+
+hubspot.com/careers

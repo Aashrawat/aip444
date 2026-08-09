@@ -1,0 +1,69 @@
+{
+  "job_title": "Software Engineer — API & Integrations",
+  "company_name": "HubSpot",
+  "location": "US/Canada",
+  "remote_status": "remote",
+  "posting_age_days": 8,
+  "posting_date_note": null,
+  "required_skills": [
+    "backend or full-stack experience",
+    "Node.js or Java",
+    "Designing REST APIs",
+    "OAuth",
+    "webhooks",
+    "rate limiting",
+    "Automated testing culture"
+  ],
+  "preferred_skills": [
+    "TypeScript",
+    "Kafka / event-driven architecture",
+    "CRM or SaaS product experience",
+    "GraphQL"
+  ],
+  "experience_level": "3+ years",
+  "education_requirements": "Bachelor's or equivalent practical experience",
+  "salary_range": "$115,000 – $155,000 USD",
+  "key_responsibilities": [
+    "Build and maintain public APIs and partner integrations",
+    "own integration reliability",
+    "write developer documentation",
+    "collaborate with partner engineers",
+    "improve API versioning strategy"
+  ],
+  "slug": "software-engineer-api-integrations-hubspot",
+  "source_file": "08-api-hubspot.txt",
+  "extracted_at": "2026-08-09T19:48:23.790Z",
+  "company_research": {
+    "company_size": "Approximately 8,882 full-time employees globally (as of Q1 2024)",
+    "industry": "Software - Application (Technology)",
+    "recent_news": [
+      "HubSpot laid off approximately 500 employees (7% of its workforce) in January 2023. The CEO cited a faster deceleration of growth than expected in 2022.",
+      "While there haven't been mass layoffs in 2024, some engineers are reportedly entering the market due to an 'AI-leaner headcount posture' and 'high-performance pruning.'",
+      "In November 2021, HubSpot expanded its footprint with a 205K sq ft lease expansion and renewal near its Cambridge headquarters.",
+      "Recent news also indicates HubSpot is expanding its Breeze Customer Agent to offer AI support and plans to acquire Dashworks to accelerate its vision of providing every GTM team member with an AI assistant."
+    ],
+    "culture_signals": [
+      "HubSpot places significant emphasis on its company culture, guided by its 'Culture Code' established in 2013.",
+      "Key values include being humble, empathetic, adaptable, remarkable, and transparent.",
+      "The company promotes transparency and employee autonomy, offering flexible work hours, unlimited vacation, and tuition reimbursement.",
+      "They also focus on diversity, inclusion, and belonging, and support education and entrepreneurship through their HubSpot Helps program."
+    ],
+    "sources": [
+      "https://finance.yahoo.com/quote/HUBS/profile?fr=sycsrp_catchall",
+      "https://www.financecharts.com/stocks/HUBS/profile",
+      "https://tracxn.com/d/companies/hubspot/__5UNdik-uUTL7xM1NRnm528GfYte-FTyqS-ueFyX5OlA",
+      "https://en.wikipedia.org/wiki/HubSpot",
+      "https://www.cmswire.com/digital-experience/now-hubspot-marketing-crm-provider-cuts-500-jobs",
+      "https://www.kore1.com/hubspot-layoffs-2026",
+      "https://www.bisnow.com/national/news/office/hubspot-is-latest-tech-firm-to-spend-millions-on-lease-consolidation-layoffs-117442",
+      "https://www.linkedin.com/posts/dharmesh_hubspot-went-through-layoffs-today-approximately-activity-7026307363238203392-3-mq",
+      "https://www.hubspot.com/company-news/a-message-from-hubspot-ceo-yamini-rangan",
+      "https://www.simpplr.com/blog/2022/the-melding-of-culture-and-communications-how-hubspots-culture-code-enables-employee-ambassadors-to-foster-their-brand",
+      "https://sloanreview.mit.edu/article/how-to-walk-the-talk-on-culture-former-hubspot-cpo-katie-burke",
+      "https://www.youtube.com/watch?v=Sknnd-pkQ8A",
+      "https://katieaburke16.medium.com/the-top-50-questions-we-get-on-people-and-culture-at-hubspot-4401fc47557d",
+      "https://www.welcometothejungle.com/en/companies/hubspot/culture-1"
+    ],
+    "notes": "There is some discrepancy in the reported number of employees for HubSpot across different sources (e.g., Yahoo Finance, Wikipedia, Tracxn). I have used the most recently reported figure from FinanceCharts.com for the company size."
+  }
+}
